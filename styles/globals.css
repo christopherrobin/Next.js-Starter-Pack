@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* This fixes Chrome's behavior of automatically applying it's own background color to inputs */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+}
+
+/* Drop Down Menu */
+#options-dropdown
+  .MuiPopover-paper {
+    padding: 0;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation1.MuiMenu-paper.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation8.MuiPopover-paper.css-i1mj3j-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  padding: 0.5em;
+}
+
+li.MuiMenuItem-root.MuiMenuItem-gutters.MuiButtonBase-root.css-190l7zl-MuiButtonBase-root-MuiMenuItem-root:hover {
+  background-color: #292929;
+  color: #fff;
+}
+
+/* Avatar component*/
+.circle-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius:50%;
+}
+
+/*
+  Nav Menu
+*/
+#nav-menu-container{
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.nav-item {
+  transform: scale(2);
+  transition: all 0.5s ease;
+  margin: 0.5em;
+}
+
+.nav-item:hover{
+  transition: all 0.5s ease;
+}
+
+.nav-menu-button:disabled {
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+button.MuiButtonBase-root.Mui-disabled.MuiIconButton-root.Mui-disabled.nav-menu-button {
+  color: #fff;
+};
