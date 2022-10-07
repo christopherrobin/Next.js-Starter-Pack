@@ -29,6 +29,7 @@ export default function Home() {
               <li>Next.js</li>
               <li>Material-UI v5 (+ starter theme &amp; icons)</li>
               <li>ESLint (+ starter config)</li>
+              <li>Dark Mode</li>
               <li>Lodash</li>
               <li>Moment</li>
             </ul>
