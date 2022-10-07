@@ -32,6 +32,7 @@ export default function Home() {
               <li>Dark Mode</li>
               <li>Lodash</li>
               <li>Moment</li>
+              <li>Misc Utility Components and Cookie Functions</li>
             </ul>
           </Grid>
         </Grid>
