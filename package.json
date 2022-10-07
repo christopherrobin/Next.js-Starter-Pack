@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-next",
+  "name": "nextjs-starter-pack",
   "private": false,
   "scripts": {
     "dev": "next dev",

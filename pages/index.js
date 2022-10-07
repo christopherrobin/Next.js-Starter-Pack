@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Christopher Robin Reynolds, Software Engineer</title>
-        <meta name="description" content="Portfolio page for Christopher Robin Reynolds, software engineer." />
+        <title>Next.js Starter Pack</title>
+        <meta name="description" content="Landing page for Next.js Starter Pack" />
       </Head>
 
 
